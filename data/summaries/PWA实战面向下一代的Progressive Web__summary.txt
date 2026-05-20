@@ -1,0 +1,42 @@
+## PWA实战：面向下一代的Progressive Web APP
+
+### Overview
+This excerpt is a technical guide to Progressive Web App (PWA) caching strategies using Service Workers. The author presents HTTP caching fundamentals, progressive enhancement through programmatic control over resource storage, and practical techniques for delivering resilient, high-performance web experiences — all framed as user-centered design that anticipates disconnection and uncertainty.
+
+### Core Concepts
+- **HTTP caching as a legacy “automatic” defense**: Browser stores resources until an expiration date set by the server, analogous to early-life coping mechanisms that operate on predetermined rules without conscious oversight.
+- **Service Worker caching as intentional self-regulation**: Full programmatic control over what is cached, when, and for how long — mirroring the shift from reactive, externally dictated patterns to deliberate internal management.
+- **Install event and pre-caching**: Preparing critical resources during the “installation” phase, akin to building secure base representations before encountering stressors.
+- **Intercept and cache pattern**: Dynamically deciding to store resources after first retrieval, representing the capacity to update internal working models through new relational experiences.
+- **Version control and cache busting**: Ensuring outdated, mismatched schemas don’t persist — directly paralleling the need to update old attachment narratives.
+- **Workbox as a scaffolded framework**: Pre-built, trusted caching strategies that simplify implementation, similar to structured therapeutic modalities that provide reliable recovery pathways.
+
+### Avoidant Attachment Relevance
+- **Dismissive-avoidant patterns**: The default HTTP cache blindly trusts server directives, much like a dismissive individual relies on rigid self-sufficiency rules (“I don’t need anyone”) without questioning their origin or current validity. Service Worker caching represents reclaiming agency over which resources (emotional experiences) to store and make accessible.
+- **Fearful-avoidant patterns**: The “intercept and cache” strategy’s simultaneous desire for connection (network request) and fear of faulty data (caching only successful responses) mirrors ambivalent approach-avoidance. The excerpt’s emphasis on only caching “successful responses” parallels how fearful-avoidant individuals may store only positive interactions while discarding any that might confirm abandonment fears.
+- **Cache mismatch and “site breakdown”** (Figure 3.2): When outdated cached files (old protective scripts) clash with new relational contexts, the result is psychological disorganization — exactly the painful incoherence that avoidant individuals experience when their defensive structures no longer fit present-moment safety.
+- **The “ignoreSearch” option**: Ignoring superficial query string differences to match a cached response reflects how avoidant persons often overlook minor relational variations, treating all vulnerability cues as identical threats. Recovery involves learning to discern genuine danger from benign variation.
+- **Memory/space concerns**: The fear that caching will consume too much internal resource (“Will this overwhelm me?”) is a classic dismissive worry. The browser’s ability to free space under pressure normalizes the ebb and flow of emotional capacity.
+
+### Therapeutic Approaches
+- **Somatic work / Nervous system regulation**: The comparison of Service Worker installation to a “顿悟” (sudden enlightenment) moment suggests therapeutic insight as a somatic, embodied shift — a felt sense of new possibility.
+- **Internal Family Systems (IFS) parallel**: Different cache names and strategies for different resources map to working with distinct parts; pre-caching is like unburdening an exile by preparing safe internal space before deeper work.
+- **Emotionally Focused Therapy (EFT)**: The “intercept and cache” technique, where a response is copied and stored while also passed to the browser, mirrors how a therapist reflects and holds a client’s emotional experience back to them, simultaneously bolstering the internal secure base.
+- **CBT / Schema restructuring**: Version control and cache busting directly parallel cognitive restructuring — deliberately invalidating old schemas by introducing updated “file versions” (corrective experiences) and ensuring the mind retrieves the new, not the old.
+
+### Practical Applications
+- **Create a “cache manifest” of known emotional resources**: In the install phase (early therapy or stabilization), pre-cache coping skills: grounding scripts, safe relationships, positive self-statements. These become instantly accessible when triggered.
+- **Implement “network-first with cache fallback” for new emotional experiences**: Attempt full engagement (network request); if successful, cache the resource; if not, fall back to a trusted pre-cached resource. This builds new working models while maintaining safety.
+- **Practice deliberate cache busting**: When an old belief (“main.js”) no longer serves, rename it (“main.v2.js”) — literally write a new narrative statement and pair it with visualization. Retrieve the new version by explicitly repeating it when the trigger arises.
+- **Use ignoreSearch for minor relational triggers**: When a partner’s tone is slightly different but not dangerous, apply “ignoreSearch” — consciously set aside minor variations to recognize the familiar safety pattern.
+- **Workbox as therapeutic structure**: Adopt a proven recovery framework (12-step, DBT skills, EFT cycle) rather than building your own from scratch. Use importScripts metaphor: import healthy relational scripts from mentors, books, support groups.
+
+### Key Insights
+1. **The “顿悟” moment is pivotal**: The author’s single breakthrough with a working Service Worker transformed confusion into mastery. For avoidant recovery, one lived experience of safe, regulated vulnerability — where the “code runs” — can reorganize an entire internal system.
+2. **Pre-caching is a non-negotiable for resilience**: Just as a PWA stores its shell offline, secure functioning in relationships requires pre-loaded capacities for self-soothing and connection before disconnection occurs. Reactive strategies fail under duress.
+3. **“Not caching error responses” is a protective but potentially limiting strategy**: The excerpt’s code checks for a successful HTTP response before caching. Fearful-avoidant individuals similarly avoid internalizing failures, but some “errors” (ruptures that lead to repair) may need to be stored to build full relational resilience.
+4. **Stale caches break the site**: When a site updates CSS but an old HTML cache loads, the page visually breaks. Psychologically, this is the fragmentation of parts: a cognitive understanding (“things are safe”) doesn’t match the somatically cached threat response. Coherent recovery requires updating all layers simultaneously.
+5. **WebPagetest.org as a metaphor for external feedback**: The author insists on testing with real devices on slow networks from other countries — analogous to checking your recovery progress in real-world, low-resource relational settings, not just in the therapist’s office.
+
+### Significance for Recovery
+Avoidant attachment recovery demands moving from automatic, externally dictated protective routines (HTTP cache) to self-authored, flexible, and updateable internal security (Service Worker cache). This excerpt unintentionally offers a precise technical metaphor for that transition: healing is not about eliminating the cache but about gaining programmatic control over what is stored, served, and updated — ensuring that the self can remain connected, responsive, and whole even when the network (relationship) is unreliable.
